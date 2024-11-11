@@ -5,6 +5,6 @@ int currentValue = Integer.parseInt(args[0]);
 double rate = Double.parseDouble(args[1]);
 int years = Integer.parseInt(args[2]);
 double futureValue= currentValue*Math.pow((1 + rate/100),years);
-System.out.println("after " + years + " years, $" + currentValue + " saved at " + rate+ "% will yield $" + (int)futureValue);
+System.out.println("After " + years + " years, a $" + currentValue + " saved at " + rate+ "% will yield $" + (int)futureValue);
 }
 }
